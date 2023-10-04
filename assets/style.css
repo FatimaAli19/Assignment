@@ -1,0 +1,35 @@
+body, html {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+    }
+    
+    .container-fluid {
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .signup-left {
+        background: url('assets/bg.png') no-repeat center center/cover;
+        padding: 20px;
+        border-right: 1px solid #ccc;
+    }
+    
+    .signup-right {
+        padding: 20px;
+        border-left: 1px solid #ccc;
+    }
+    
+    .social-icon {
+        width: 30px;
+        margin: 10px;
+    }
+    
+    .upper-right-image,
+    .lower-left-image {
+        max-width: 100px;
+        margin: 10px;
+    }
+    

@@ -1,0 +1,47 @@
+/* Add your custom styles here */
+body, html {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+    }
+    
+    .container-fluid {
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .signup-left {
+        background-size: cover;
+        background-position: center;
+        padding: 40px;
+        border-right: 1px solid #ccc;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    /* Add your custom styles here */
+.btn-social {
+        background-color: aliceblue;
+        color: black;
+        width: 300px; /* Set the desired width */
+        height: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 18px;
+    }
+    
+    /* Center the social buttons */
+    .social-buttons {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    
